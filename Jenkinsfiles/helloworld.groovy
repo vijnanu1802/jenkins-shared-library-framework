@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                HelloWorld "vijnan"
+                HelloWorld
             }
         }
     }
